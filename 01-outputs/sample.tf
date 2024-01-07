@@ -1,5 +1,3 @@
-output "sample" {
-    value = "Welcome"
+output "Sample" {
+    value = "Hello, Welcome"
 }
-
-

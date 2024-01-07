@@ -23,3 +23,15 @@ variable "number" {
 output "op_number" {
     value = var.number
 }
+
+# Declaring a list variable
+variable "sample_list" {
+    default = {
+        "Koushik" ,
+        "Ramesh" ,
+    }
+}
+
+output "print_list" {
+    value = "Namaskara Bengaluru, Naanu nimma ${var.sample_list[0]} ${var.sample_list[1]}"
+}

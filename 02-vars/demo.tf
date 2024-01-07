@@ -6,5 +6,5 @@ variable "Sample" {
 
 # Printing an ouput
 output "op" {
-    value = var.sample
+    value = var.Sample
 }

@@ -17,7 +17,7 @@ output "ops" {
 # In terraform, there is no concept of single quotes
 
 variable "number" {
-    value = 100
+    default = 100
 }
 
 output "op_number" {

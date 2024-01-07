@@ -26,10 +26,10 @@ output "op_number" {
 
 # Declaring a list variable
 variable "sample_list" {
-    default = {
+    default = [
         "Koushik" ,
         "Ramesh" ,
-    }
+    ]
 }
 
 output "print_list" {

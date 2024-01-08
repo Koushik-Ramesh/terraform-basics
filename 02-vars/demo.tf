@@ -47,5 +47,5 @@ variable "sample_map" {
 
 # Printing a MAP variable
 output "sample_map_op" {
-    value = "${var.sample_map["Name"]} and my age is ${var.sample_map["Age"]} and i am a ${var.sample_nap["Sex"]}"
+    value = "${var.sample_map["Name"]} and my age is ${var.sample_map["Age"]} and i am a ${var.sample_map["Sex"]}"
 }

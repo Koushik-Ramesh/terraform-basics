@@ -53,5 +53,5 @@ output "sample_map_op" {
 # Declaring an empty variable and passing the value in the *.tfvars file #
 variable "city" {}
 output "city_name" {
-    value = "Name of the city is ${var.city}
+    value = "Name of the city is ${var.city}"
 }

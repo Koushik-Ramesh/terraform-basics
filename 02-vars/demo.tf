@@ -35,3 +35,17 @@ variable "sample_list" {
 output "print_list" {
     value = "Namaskara Bengaluru, Naanu nimma ${var.sample_list[0]} ${var.sample_list[1]}"
 }
+
+# Declaring a MAP Variable
+variable "sample_map" {
+    default = {
+        Name = "Koushik"
+        Age = "23"
+        Sex = "Male"
+    }
+}
+
+# Printing a MAP variable
+output "sample_map_op" {
+    value = "${var.sample_map["Name"} and my age is ${var.sample_map["Age"]} and i am a ${var.sample_nap["Sex"]}"
+}

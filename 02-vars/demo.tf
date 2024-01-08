@@ -60,3 +60,8 @@ variable "state" {}
 output "state_name" {
     value = "Name of the city is ${var.state}"
 }
+
+variable "fav_cloud" {}
+output "fav_cloud_op" {
+    value = "My favourite cloud is ${var.fav_cloud}"
+}

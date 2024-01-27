@@ -1,5 +1,5 @@
 # DataDource to fetch the info of AMI
-data "aws_ami" "example" {
+data "aws_ami" "ami" {
     executable_users = ["self"]
     most_recent      = true
     name_regex       = "b55 - ansible-lab-image"

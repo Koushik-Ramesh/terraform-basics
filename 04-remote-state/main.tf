@@ -8,7 +8,7 @@ data "aws_ami" "example" {
 
 resource "aws_instance" "web" {
   count         = var.howManyYouWant
-  ami           = ams_ami.ami.image_id
+  ami           = data.ams_ami.ami.image_id
   instance_type = "t3.medium"
 
   tags = {

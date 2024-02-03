@@ -9,4 +9,4 @@ resource "aws_instance" "app" {
   }
 }
 
-variable "sg"
+variable "sg" {}                # Declare the empty variable

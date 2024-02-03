@@ -1,7 +1,7 @@
 # DataDource to fetch the info of AMI
 data "aws_ami" "ami" {
     most_recent      = true
-    name_regex       = "b55 - ansible-lab-image"
+    name_regex       = "b55-ansible-lab-image"
     owners           = ["self"]
 }
 

@@ -11,7 +11,7 @@ resource "aws_instance" "web" {
   instance_type = "t3.medium"
 
   tags = {
-    Name = "var.instances[count.index]"
+    Name = "${var.instances[count.index]}"
   }
 }
 

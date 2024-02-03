@@ -5,7 +5,7 @@ resource "aws_instance" "app" {
   vpc_security_group_ids = [var.sg]
 
   tags = {
-    Name = "Terraform-Instance"
+    Name = "Module-Instance"
   }
 }
 

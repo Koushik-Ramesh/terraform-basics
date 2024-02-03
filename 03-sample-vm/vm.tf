@@ -1,4 +1,4 @@
-resource "aws_instance" "web" {
+resource "aws_instance" "app" {
   ami           = "ami-0f3cbcc10e8b99542"
   instance_type = "t3.medium"
 
